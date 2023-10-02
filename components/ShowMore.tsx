@@ -14,6 +14,13 @@ const ShowMore = ({ pageNumder, isNext }: ShowMoreProps) => {
     const newPathName = updateSearchParams('limit', `${newLimit}`);
 
     router.push(newPathName);
+
+    setTimeout(() => {
+      window.scrollTo({
+        top: 1000,
+        behavior: 'smooth',
+      });
+    }, 500);
   };
 
   return (

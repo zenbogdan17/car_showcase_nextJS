@@ -1,5 +1,3 @@
-'use client';
-
 import { CarCard, CurtomFilter, Hero, SearchBar, ShowMore } from '@components';
 import { fuels, yearsOfProduction } from '@constants';
 
